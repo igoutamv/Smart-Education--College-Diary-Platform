@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Register- Hope of Every Students</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-srhybPfZf1D5CeAmsLoPBqONPB1xW2vnqE+/PMArSJo/7FtEHMbnSL7QzEzrI8gCVWRlTjFcBbTOc61sGIBkfw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="firstpage">
+        <div class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="logo.png"  alt="College Register">
+        </a>
+    </div>
+    <ul class="nav-links">
+      <div class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="services">
+          <a href="#services">Services</a>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <button class="loginbutton"><a href="login.html">Login</a></button>
+      </div>
+    </ul>    
+        </div>
+
+        <div class="slideshow-container">
+            <div class="slide active">
+              <div class="numbertext">1 / 3</div>
+              <img src="1_1.jpeg" style="width: 100%">
+              <div class="text">Picture 1: Related to Education</div>
+            </div>
+          
+            <div class="slide">
+              <div class="numbertext">2 / 3</div>
+              <img src="3.jpg" style="width:100%">
+              <div class="text">Picture 2: Related to Education</div>
+            </div>
+          
+            <div class="slide">
+              <div class="numbertext">3 / 3</div>
+              <img src="4.jpg" style="width:100%">
+              <div class="text">Picture 3: Related to Education</div>
+            </div>
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </div> 
+    <div class="secondpage">
+
+        <h1 id="services" class="heading">STUDENTS CORNER</h1>
+        <div class="container">
+            <div class="cardu" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <img src="attendance.svg" alt="Image" class="image">
+                <h3 class="heading">Attendence</h3>
+                <p class="description">Track your daily Attendence here.</p>
+                <button class="buxtton"><a href="#">View</a></button>
+
+            </div>
+            <div class="cardu" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <img src="courses.svg" alt="Image" class="image">
+                <h3 class="heading">Courses</h3>
+                <p class="description">Track your daily Attendence here.</p>
+                <button class="buxtton"><a href="courses.html">View</a></button>
+
+            </div>
+            <div class="cardu" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <img src="time_table.svg" alt="Image" class="image">
+                <h3 class="heading">Time Table</h3>
+                <p class="description">Check your shceduled Classes</p>
+                <button class="buxtton"><a href="time_table.png">View</a></button>
+
+            </div>
+            <div class="cardu" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <img src="alumini.svg" alt="Image" class="image">
+                <h3 class="heading">Alumni</h3>
+                <p class="description">Check our pasts Proud Students</p>
+                <button class="buxtton"><a href="alumni.html">View</a></button>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="thirdpage">
+        <div class="Xcontainer">
+            <h1 class="heading">Features We Offer</h1>
+        </div>
+            <div class="main-container">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="enquiry.svg" alt="">
+                        <h5>Student Enquiry</h5>
+                    </div>
+                    <div class="card">
+                        <img src="money.svg" alt="">
+                        <h5>Fee Management</h5>
+                    </div>
+                    <div class="card">
+                        <img src="live_classes.svg" alt="">
+                        <h5>Live Classroom</h5>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="examination.svg" alt="">
+                        <h5>Examination</h5>
+                    </div>
+                    <div class="card">
+                        <img src="library.svg" alt="">
+                        <h5>Library</h5>
+                    </div>
+                    <div class="card">
+                        <img src="transport.svg" alt="">
+                        <h5>Transportation</h5>
+                    </div>
+                    <div class="card">
+                        <img src="canteen.svg" alt="">
+                        <h5>Mess Canteen</h5>
+
+                    </div>
+                </div>
+            </div>       
+    </div>
+    <div class="lastline">
+        <div class="box_box11">
+            <h4>©College Register Pvt Ltd, Indore</h4>
+        </div>
+        <div class="box_box12">
+            <h4>Footer Below</h4>
+        </div>
+        <div class="box_box22">
+            <a href="#" rel="noopener noreferrer">Privacy Policy</a>
+            <a href="#" rel="noopener noreferrer">Terms and Condition</a>
+        </div>
+    </div>
+
+<!--aditya footer-->
+
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html"><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1B3aXaV_JM92UBUcz9eI_1EsQkpCbAxlpUmDvc21prH5dxpPYFGKdfBrs1ZcUAg_vqWw&usqp=CAU alt="" class="img-fluid logo-footer"></a>
+              <div class="footer-about">
+                  <p>Indore Institute of Science and Technology,Indore is a college in Indore Madhya Pradesh, India. It was established in 2003. It is affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV) for B Tech in CS/ECE/IT/ME/CM/CE and ME in Computer Science  </p>
+              </div>
+
+            </div>
+            <div class="footerrr">
+                <div class="col-md-3">
+                    <div class="useful-link">
+                        <h2>Useful Link</h2>
+                        <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+                        <div class="use-links">
+                            <li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+                            <li><a href="about.html"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
+                            <li><a href="contact.html"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="social-links">
+                            <h2>Follow Us</h2>
+                            <img src="./assets/images/about/home_line.png" alt="">
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/100064495487764/posts/pfbid0oHbkkhsF3HCs5kFu2QgE9NU2s95agJGf6FdBLwC8TYu1cvFE7XXUmMT54VLrsqQnl/" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a>
+                                <a href="https://www.instagram.com/p/C4qE0-NM5fs/?igsh=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+                                <a href="https://www.linkedin.com/school/indore-institute/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                            </div>
+                        </div>
+                    
+        
+                    </div>
+                    <div class="col-md-3">
+                        <div class="address">
+                            <h2>Address</h2>
+                            <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+                            <div class="address-links">
+                                <li class="address1"><i class="fa-solid fa-location-dot"></i> Rau - Pithampur Rd, Opposite Indian Institute of Management, Rau, Indore, Madhya Pradesh 453331</li>
+                                   <li><a href=""><i class="fa-solid fa-phone"></i> +91 8224071000/2000, 8225071000</a></li>
+                                   <li><a href="mailto:admission@indoreinstitute.com"><i class="fa-solid fa-envelope"></i> admission@indoreinstitute.com</a></li>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+
+
+            </div>
+          
+        </div>
+    </div>
+
+</footer>
+<!-- footer section end -->
+<!-- footer copy right section start -->
+<section id="copy-right">
+    <div class="copy-right-sec"><i class="fab fa-copyright">©</i>  
+        BY IIST STUDENTS FOR YOU WITH LOVE
+    </div>
+
+</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha512-40O6k/6r3Jn8pGnDB0yNQoFi7BlJo/34lPtwUgMlwPqzEH/NBX0p5BPyH6F6mB2X85xN02myYRQMdRWDPuvhug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new SmoothScroll('a[href*="#"]');
+    </script>   
+    <script src="script.js"></script>
+</body>
+</html>
